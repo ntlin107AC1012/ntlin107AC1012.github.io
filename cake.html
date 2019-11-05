@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/cake.css">
+    <link rel="stylesheet" href="./CSS/flexslider.css" type="text/css">
+    <Script src="https://code.jquery.com/jquery-3.4.1.min.js"></Script>
+    <link rel="stylesheet" href="./CSS/flexslider-rtl-min.css">
+    <Script src="./JS/cake.js"></Script> 
+    <script src="./JS/jquery.flexslider-min.js"></script>
+    
+    
+    
+    <title>Document</title>
+</head>
+
+
+<body>  
+    <!--loading畫面-->
+    <div class="loading">
+        <div id="progressbar">
+            <span id="loading"></span>
+            <div id="load">loading</div>
+        </div>
+    </div>
+ 
+    <div class="layout">
+        <!--header-->
+        <header class="cake">
+            <a href="#tab01" id="cakeimage"><img src="./image/cake.png" alt="標題" class="cakeimage"></a>
+            <a href="https://www.facebook.com/">
+                <img src="./image/fb.png" alt="fb" class="fbbtn">
+            </a>
+            <a href="https://twitter.com/">
+                <img src="./image/twitter.png" alt="fb" class="twbtn">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="./image/ig.png" alt="fb" class="igbtn">
+            </a>
+        </header>
+        <!--選單-->
+        <nav class="nav">
+            <ul class="nav_list">
+                <li  ><a href="#tab01"class="nav_item_a" id="TOP">TOP</a></li>
+                <li ><a href="#tab02" class="nav_item_a">TOPICS</a></li>
+                <li class="nav_item" >
+                    <a href="#tab03" class="nav_item_a" id="PRODUCT">PRODUCT</a>
+                            <ul class="nav-sublist">
+                                    <li class="nav-sublist-text-1"><a class="nav-sublist-text-a">期間限定</a><li>
+                                    <hr class="hr" size="3px" color="#4B0816" width="80%">
+                                    <li class="nav-sublist-text"><a href="#strawberry" class="nav-sublist-text-a"  >いちご</a></li>
+                                    <li class="nav-sublist-text"><a href="#chestnut" class="nav-sublist-text-a" >くり</a></li>
+                            </ul>
+                </li>
+                <li class="nav_item" >
+                    <a href="#tab04" class="nav_item_a">BRAND</a>
+                        <ul class="nav-sublist">
+                           <li class="nav-sublist-text-story"><a href="#history"  class="nav-sublist-text-a" >歷史</a></li>
+                           <li class="nav-sublist-text-story" style="padding-bottom: 20px;"><a href="#cherf"  class="nav-sublist-text-a">コック</a></li>
+                        </ul>
+                </li>
+                <li ><a href="#tab05" class="nav_item_a">STORY</a></li>
+                <li ><a href="#tab06" class="nav_item_a">SHOP</a></li>
+            </ul>    
+
+            <div id="tab01" class="tab-inner"> 
+                <!--滑動圖片-->
+                <div class="flexslider" id="flexslider">
+                    <ul class="slides">
+                        <li ><img src="./image/navimg3.png" alt=""  ></li>
+                        <li ><img src="./image/navimg2.png" alt="" ></li>
+                        <li ><a href="#tab03"><img src="./image/navimg1.png" alt=""  class="navimg1" id="nav1"></a></li>
+                    </ul>
+                </div>
+                <div class="today">
+                    <img src="./image/line.png" alt="" class="line">
+                    <img src="./image/today.png" alt="" class="todaytext">
+                    <img src="./image/line.png" alt="" class="line-1">
+                </div>
+                <div class="tdy">
+                    <img src="./image/todayimg.png" alt="" class="tdyimg">
+                    <img src="./image/reserve.png" alt="" class="reserve">
+                </div>
+                <div class="tdy2">
+                    <img src="./image/todayimg2.png" alt="" class="tdyimg2">
+                </div>
+            </div>    
+
+            <div id="tab02" class="tab-inner">
+                <p>tab02</p>
+            </div>
+
+            <div id="tab03" class="tab-inner">
+                <!--草莓-->
+                <div class="brandbackground">
+                    <img src="./image/navimg1.png" alt="" class="hide">
+                    <img src="./image/strawberrytxt.png" alt="" class="strawberrytxt" >
+                    <img src="./image/strawberrytxt2.png" alt="" class="strawberrytxt2" >
+                    <img src="./image/navimg1.png" alt="" class="pdimg">
+                    <div class="money">
+                        <img src="./image/money.png" alt="" class="moneytxt1">
+                        <img src="./image/money2.png" alt="" class="moneytxt2">
+                        <img src="./image/money3.png" alt="" class="moneytxt3">
+                        <img src="./image/money4.png" alt="" class="moneytxt4">
+                        <img src="./image/money5.png" alt="" class="moneytxt5">
+                        <img src="./image/buy.png" alt="" class="buy">
+                        <img src="./image/buy.png" alt="" class="buy2">
+                    </div>
+                </div>
+                    <div class="igdtext">
+                            <img src="./image/line.png" alt="" class="igdline">
+                            <img src="./image/igd.png" alt="" class="igd" id="ingredinet">
+                            <img src="./image/line.png" alt="" class="igdline">
+                    </div>
+                    <img src="./image/igdimg.png" alt="" class="igdimg" id="igdimg">
+                    <!--栗子-->
+                <div class="brandbackground">
+                    <img src="./image/chestnut.png" alt="" class="chepdimg" id="chestnut">
+                </div>
+                    <div class="money">
+                        <img src="./image/money.png" alt="" class="moneytxt1">
+                        <img src="./image/chemoney.png" alt="" class="moneytxt6">
+                        <img src="./image/money3.png" alt="" class="moneytxt3">
+                        <img src="./image/chemoney2.png" alt="" class="moneytxt7">
+                        <img src="./image/money5.png" alt="" class="moneytxt5">
+                        <img src="./image/buy.png" alt="" class="buy3">
+                        <img src="./image/buy.png" alt="" class="buy4">
+                    </div>
+                
+                    <div class="igdtext">
+                            <img src="./image/line.png" alt="" class="igdline">
+                            <img src="./image/igd.png" alt="" class="igd" id="ingredinet">
+                            <img src="./image/line.png" alt="" class="igdline">
+                    
+                    </div>
+                    <img src="./image/cheigd.png" alt="" class="cheigdimg">
+
+            </div>
+
+            <div id="tab04" class="tab-inner"> 
+                <div class="brandtext"> 
+                    <img src="./image/line.png" alt="" class="line">
+                    <img src="./image/history.png" alt="" class="todaytext" id="history">
+                    <img src="./image/line.png" alt="" class="line-1">
+                </div>
+                    <img src="./image/historytext.png" alt="" class="historytext">
+                    <img src="./image/historytext2.png" alt="" class="historytext">
+                <div class="brandtext"> 
+                    <img src="./image/line.png" alt="" class="line">
+                    <img src="./image/brandtext.png" alt="" class="todaytext" id="cherf">
+                    <img src="./image/line.png" alt="" class="line-1">
+                </div>
+                    <img src="./image/chef.png" alt="" class="chef">
+                    
+            </div>
+
+            <div id="tab05" class="tab-inner">
+                <p>tab05</p>
+            </div>
+
+            <div id="tab06" class="tab-inner">
+                <p>tab06</p>
+            </div>
+            
+        </nav>
+        
+        <footer class="footer">
+            <img src="./image/cake.png" alt="標題" class="cakeimagefot">
+            <img src="./image/footer1.png" alt="" class="contactimg">
+            <img src="./image/footer2.png" alt="" class="contactimg2">
+        </footer>
+        <script>
+           
+           const btn1 =document.getElementById("PRODUCT");
+           const btn2 =document.getElementById("nav1");
+           const btn3 =document.getElementById("TOP");
+           const btn4 =document.getElementById("cakeimage");
+           btn2.addEventListener("click",()=>{
+               btn1.click();
+           });
+           btn4.addEventListener("click",()=>{
+               btn3.click();
+           });
+                    
+        </script>
+    </div>
+</body>

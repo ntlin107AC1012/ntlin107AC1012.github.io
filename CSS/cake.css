@@ -1,0 +1,429 @@
+html {
+   width: 1920px;
+
+}
+.loading{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(94,15,33);
+    z-index: 9999;
+}
+
+body{
+    margin: 0px;
+}
+.layout {
+    background-color: white;
+    height: 1800px;
+    margin-left: auto;
+ margin-right: auto;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding: 0px;
+}
+.cake{
+    display: flex;
+    background-color: rgb(94,15,33);
+    height: 180px;
+}
+.cakeimage{
+    height: 95px;
+    width: 364px;
+    margin-left: 778px;
+    margin-top: 51.5px;
+   
+}
+.fbbtn{
+   height: 31px;
+   width: 15px;
+   margin-top: 65px;
+   margin-left: 550px;
+}
+.twbtn{
+    height: 31px;
+    width: 37px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.igbtn{
+    height: 33px;
+    width: 33px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+
+.nav_list{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(242, 219, 200);
+}
+.nav-sublist{
+    
+    
+    width: 300px;
+    display: none;
+    list-style: none;
+    position: absolute;
+    
+    padding: 0px;
+    background-color: rgb(242, 219, 200);
+    text-align: center;
+    opacity: 0.9;
+    z-index: 9999;
+}
+.nav-sublist-text-1{
+    font-size: 26px;
+    color: rgb(75, 8,22);
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 36px;
+    font-weight: bolder;
+}
+.nav-sublist-text{
+    font-size: 18px;
+    color: rgb(75, 8,22);
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 36px;
+    font-weight: 700;
+}
+.nav-sublist-text-a{
+    color: rgb(75, 8,22);
+    
+}
+.nav-sublist-text-story{
+    color: rgb(75, 8,22);
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    padding-left: 36px;
+}
+
+.nav_item_a:hover{
+    background-color: rgb(216,171,138);
+    color: white;
+}
+.nav_item:hover> .nav_item_a{
+    background-color: rgb(216,171,138);
+    color: white;
+}
+
+a{
+    text-decoration-line: none;
+    
+    
+}
+.nav_item_a{
+    display: block;
+
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+    border-bottom: none;
+    
+}
+.topic{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.poduct{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.brand{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.story{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.shop{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.today{
+    display: flex;
+}
+.line{
+    width: 766px;
+    height: 6px;
+    margin-top: 24px;
+}
+.line-1{
+    width: 790px;
+    height: 6px;
+    margin-top: 24px;
+}
+.todaytext{
+    width: 362px;
+    height: 49px;
+}
+.tdy{
+    display: flex;
+    height: 400px;
+    
+    margin-bottom: 20px;
+}
+.tdyimg{
+    margin-left: 460px;
+    width: 972px;
+    height: 400px;
+}
+.reserve{
+    display: none;
+    width: 63px;
+    height: 354px;
+    margin-top: 46px;
+    
+}
+.tdy2{
+    
+    height: 400px;
+    
+}
+.tdyimg2{    
+    margin-left: 503px;
+    width: 972px;
+    height: 400px;
+}
+.pdimg{
+    height: 700px;
+    width: 1920px;
+    margin: 0px;
+    border: 0px;
+}
+.money{
+    height: 147px;
+    background-color: rgb(242, 219, 200);
+    display: flex;
+}
+.moneytxt1{
+    height: 46px;
+    width: 78px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.moneytxt2{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.moneytxt3{
+    height: 46px;
+    width: 78px;
+    margin-top: 50px;
+    margin-left: 76px;
+}
+.moneytxt4{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.moneytxt5{
+    height: 74px;
+    width: 404px;
+    margin-top: 36px;
+    margin-left: 93px;
+}
+.moneytxt6{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.moneytxt7{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.buy{
+    position: absolute;
+    margin: 0px;
+    width: 267px;
+    height: 108px;
+    left: 408px;
+    top: 965px;
+    display: none;
+    
+}
+.buy2{
+    position: absolute;
+    margin: 0px;
+    width: 267px;
+    height: 108px;
+    left: 858px;
+    top: 965px;
+    display: none;
+}
+.buy3{
+    position: absolute;
+    margin: 0px;
+    width: 267px;
+    height: 108px;
+    left: 408px;
+    top: 2580px;
+    display: none;
+}
+.buy4{
+    position: absolute;
+    margin: 0px;
+    width: 267px;
+    height: 108px;
+    left: 858px;
+    top: 2580px;
+    display: none;
+}
+.igdtext{
+    display: flex;
+    margin-top: 20px;
+}
+.igdline{
+    width: 856px;
+    height: 6px;
+    margin-top: 24px;
+}
+.igd{
+    width: 208px;
+    height: 49px;
+}
+.igdimg{
+    margin-top: 40px;
+    height: 663px;
+    width: 1387px;
+    margin-left: 266px;
+    margin-bottom: 40px;
+}
+.chepdimg{
+    height: 650px;
+    width: 1920px;
+    
+   
+    
+}
+.cheigdimg{
+    height: 1535px;
+    width: 1421px;
+    margin-left: 249px;
+    margin-top: 40px;
+}
+.brandtext{
+    display: flex;
+    margin-top: 20px;
+}
+.historytext{
+    height: 673px;
+    width: 1359px;
+    margin-top: 40px;
+    margin-left: 280px;
+}
+.chef{
+    height: 794px;
+    width: 1359px;
+    margin-top: 40px;
+   margin-left: 280px;
+}
+footer{
+    display: flex;
+    height: 300px;
+    background: rgb(94,15,33);
+    margin-top: 40px;
+    
+}
+.cakeimagefot{
+    height: 95px;
+    width: 364px;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.contactimg{
+    height: 77px;
+    width: 380px;
+    margin-left: 380px;
+    margin-top: 120px;
+    
+}
+.contactimg2{
+    width: 490px;
+    height: 33px;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+.hide{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    left: 350px;
+    opacity: 0;
+}
+.strawberrytxt{
+    position: absolute;
+    height: 77px;
+    width: 153px;
+    left: 250px;
+    top: 625px;
+}
+.strawberrytxt2{
+    position: absolute;
+    height: 77px;
+    width: 174px;
+    left: 600px;
+    top: 380px;
+}
+#progressbar{
+    height: 26px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    background: rgb(242, 219, 200);
+    border-radius: 10px;
+    margin: -20px 0 0 -100px;
+    padding: 2px;
+  }
+  #loading{
+    transition: all 500ms ease;
+    height: 20px;
+    width: calc(100% - 10px);
+    border-radius: 8px;
+    background: #474747;
+    position: absolute;
+    margin: 3px;
+    display: inline-block;
+    animation: load 3s ease infinite;
+  }
+  #load{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -30px;
+    color: rgb(242, 219, 200);
+  }
+  
+  @keyframes load{
+    0%{
+      width: 2%;
+    }
+    10%{
+      width: 10%;
+    }
+  }
+  .brandbackground{
+    background-color: rgb(242, 219, 200);
+  }
